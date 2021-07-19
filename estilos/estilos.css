@@ -1,0 +1,43 @@
+/* RESECT */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap');
+p,h2{
+margin: 0px;
+color:#4C2B0D;
+}
+h2{
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+p{
+    margin-top: 10px;
+    font-weight: 200;
+    font-family: 'Nunito', sans-serif;
+}
+.container{
+    display: flex;
+    padding: 10px;
+    margin: 0px auto;
+    width: 1024px;
+}
+.recipiente{
+    border-radius: 10px;
+    margin-right: 40px;
+    width: 275px;
+    height: 385px;
+    background-color: #F0ECE7;
+}
+.recipiente-img{
+    height: 60%;
+}
+.recipiente-img img{
+    border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.recipiente-text{
+    height: 35%;
+    padding: 10px;
+}
+
+
